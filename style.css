@@ -1,25 +1,61 @@
+/* General */
 body {
   font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
   padding: 20px;
-  background-color: #f2f2f2;
-}
-h1 {
   color: #333;
 }
-ul {
+
+/* Título principal */
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+/* Lista de menú */
+#menu-list {
   list-style-type: none;
   padding: 0;
+  max-width: 500px;
+  margin: 20px auto;
 }
-li {
-  padding: 8px;
-  background: white;
-  margin-bottom: 4px;
+
+#menu-list li {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 12px 16px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Estilos para admin (input y botón) */
+input[type="text"] {
+  padding: 10px;
+  width: 70%;
+  max-width: 400px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
   border-radius: 4px;
 }
-input {
-  padding: 8px;
-  margin-right: 4px;
-}
+
 button {
-  padding: 8px 12px;
+  padding: 10px 16px;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #219150;
+}
+
+/* Centrado para el contenido */
+body > * {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
