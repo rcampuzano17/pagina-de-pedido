@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin - Menú</title>
+  <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-database-compat.js"></script>
+  <script src="admin.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Actualizar Menú</h1>
+  <input type="text" id="new-item" placeholder="Nuevo plato">
+  <button onclick="addMenuItem()">Agregar</button>
+  <ul id="menu-list"></ul>
+</body>
+</html>

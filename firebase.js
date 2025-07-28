@@ -1,0 +1,9 @@
+export const firebaseConfig = {
+  apiKey: "AIzaSyCsa82plc6IJo_HCnJjh9nTfwmAQUmCUQ8",
+  authDomain: "pagina-de-pedido.firebaseapp.com",
+  databaseURL: "https://pagina-de-pedido-default-rtdb.firebaseio.com",
+  projectId: "pagina-de-pedido",
+  storageBucket: "pagina-de-pedido.firebasestorage.app",
+  messagingSenderId: "958081475624",
+  appId: "1:958081475624:web:10c36d7031dae8a176411d"
+};
